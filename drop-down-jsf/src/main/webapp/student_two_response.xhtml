@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+<h:head>
+   <title>Student Registration Confirmation</title>
+</h:head>
+<h:body>
+   <h3>Estudante registrado com sucesso:</h3>
+
+   <p>Nome: #{studentTwo.firstName} #{studentTwo.lastName}</p>
+
+   <p>País: #{studentTwo.country}</p>
+
+   <p>Linguagens Favoritas:</p>
+   <ul>
+      <ui:repeat value="#{studentTwo.favoriteLanguages}" var="tempLanguage">
+         <li>#{tempLanguage}</li>
+      </ui:repeat>
+   </ul>
+</h:body>
+</html>
