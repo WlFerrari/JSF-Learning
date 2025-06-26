@@ -16,6 +16,6 @@
   </servlet-mapping>
 <!--Mudar o arquivo abaixo para escolher qual a página de início (form são arquivos padrões)-->
   <welcome-file-list>
-    <welcome-file>tour_form.xhtml</welcome-file>
+    <welcome-file>student_table_demo.xhtml</welcome-file>
   </welcome-file-list>
 </web-app>
